@@ -1,5 +1,7 @@
 #include <iostream>
 #include <cmath>
+#include <string>
+#include <iomanip>
 
 using namespace std;
 
@@ -26,7 +28,7 @@ long double solve_17(string s)
 
 int main()
 {
-    long double x = solve_17("342345820139586830203845861938475676");
-    cout<<x;
+    long double answer = solve_17("342345820139586830203845861938475676");
+    cout<< fixed<<answer;
     return 0;
 }
